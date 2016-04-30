@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="3475" started-at="2016-04-30T19:54:38Z" finished-at="2016-04-30T19:54:41Z">
+    <groups>
+      <group name="valid">
+        <method signature="DrawingTest.checkAllPossibilities()[pri:0, instance:com.sorenson.test.DrawingTest@6a024a67]" name="checkAllPossibilities" class="com.sorenson.test.DrawingTest"/>
+        <method signature="DrawingTest.checkChangingResults()[pri:0, instance:com.sorenson.test.DrawingTest@6a024a67]" name="checkChangingResults" class="com.sorenson.test.DrawingTest"/>
+        <method signature="DrawingTest.checkTwoPersonArray()[pri:0, instance:com.sorenson.test.DrawingTest@6a024a67]" name="checkTwoPersonArray" class="com.sorenson.test.DrawingTest"/>
+      </group> <!-- valid -->
+      <group name="performance">
+        <method signature="DrawingTest.check1000000ResultsSpeed()[pri:0, instance:com.sorenson.test.DrawingTest@6a024a67]" name="check1000000ResultsSpeed" class="com.sorenson.test.DrawingTest"/>
+        <method signature="DrawingTest.check100000ResultsSpeed()[pri:0, instance:com.sorenson.test.DrawingTest@6a024a67]" name="check100000ResultsSpeed" class="com.sorenson.test.DrawingTest"/>
+        <method signature="DrawingTest.check10000ResultsSpeed()[pri:0, instance:com.sorenson.test.DrawingTest@6a024a67]" name="check10000ResultsSpeed" class="com.sorenson.test.DrawingTest"/>
+      </group> <!-- performance -->
+      <group name="invalid">
+        <method signature="DrawingTest.invalidEmptyArray()[pri:0, instance:com.sorenson.test.DrawingTest@6a024a67]" name="invalidEmptyArray" class="com.sorenson.test.DrawingTest"/>
+        <method signature="DrawingTest.invalidOnePersonArray()[pri:0, instance:com.sorenson.test.DrawingTest@6a024a67]" name="invalidOnePersonArray" class="com.sorenson.test.DrawingTest"/>
+        <method signature="DrawingTest.invalidRepeats()[pri:0, instance:com.sorenson.test.DrawingTest@6a024a67]" name="invalidRepeats" class="com.sorenson.test.DrawingTest"/>
+      </group> <!-- invalid -->
+    </groups>
+    <test name="White Elephant Drawing Tests" duration-ms="3475" started-at="2016-04-30T19:54:38Z" finished-at="2016-04-30T19:54:41Z">
+      <class name="com.sorenson.test.DrawingTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.sorenson.test.DrawingTest@6a024a67]" name="beforeSuite" is-config="true" duration-ms="20" started-at="2016-04-30T14:54:38Z" finished-at="2016-04-30T14:54:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="check1000000ResultsSpeed()[pri:0, instance:com.sorenson.test.DrawingTest@6a024a67]" name="check1000000ResultsSpeed" duration-ms="3142" started-at="2016-04-30T14:54:38Z" finished-at="2016-04-30T14:54:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check1000000ResultsSpeed -->
+        <test-method status="PASS" signature="check100000ResultsSpeed()[pri:0, instance:com.sorenson.test.DrawingTest@6a024a67]" name="check100000ResultsSpeed" duration-ms="123" started-at="2016-04-30T14:54:41Z" finished-at="2016-04-30T14:54:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check100000ResultsSpeed -->
+        <test-method status="PASS" signature="check10000ResultsSpeed()[pri:0, instance:com.sorenson.test.DrawingTest@6a024a67]" name="check10000ResultsSpeed" duration-ms="15" started-at="2016-04-30T14:54:41Z" finished-at="2016-04-30T14:54:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check10000ResultsSpeed -->
+        <test-method status="PASS" signature="checkAllPossibilities()[pri:0, instance:com.sorenson.test.DrawingTest@6a024a67]" name="checkAllPossibilities" duration-ms="8" started-at="2016-04-30T14:54:41Z" finished-at="2016-04-30T14:54:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAllPossibilities -->
+        <test-method status="PASS" signature="checkChangingResults()[pri:0, instance:com.sorenson.test.DrawingTest@6a024a67]" name="checkChangingResults" duration-ms="7" started-at="2016-04-30T14:54:41Z" finished-at="2016-04-30T14:54:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkChangingResults -->
+        <test-method status="PASS" signature="checkTwoPersonArray()[pri:0, instance:com.sorenson.test.DrawingTest@6a024a67]" name="checkTwoPersonArray" duration-ms="5" started-at="2016-04-30T14:54:41Z" finished-at="2016-04-30T14:54:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTwoPersonArray -->
+        <test-method status="PASS" signature="invalidEmptyArray()[pri:0, instance:com.sorenson.test.DrawingTest@6a024a67]" name="invalidEmptyArray" duration-ms="18" started-at="2016-04-30T14:54:41Z" finished-at="2016-04-30T14:54:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmptyArray -->
+        <test-method status="PASS" signature="invalidOnePersonArray()[pri:0, instance:com.sorenson.test.DrawingTest@6a024a67]" name="invalidOnePersonArray" duration-ms="5" started-at="2016-04-30T14:54:41Z" finished-at="2016-04-30T14:54:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidOnePersonArray -->
+        <test-method status="PASS" signature="invalidRepeats()[pri:0, instance:com.sorenson.test.DrawingTest@6a024a67]" name="invalidRepeats" duration-ms="4" started-at="2016-04-30T14:54:41Z" finished-at="2016-04-30T14:54:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidRepeats -->
+      </class> <!-- com.sorenson.test.DrawingTest -->
+    </test> <!-- White Elephant Drawing Tests -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="White Elephant Drawing Tests(failed)">
+    <groups>
+      <run>
+        <include name="performance"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.sorenson.test.DrawingTest">
+        <methods>
+          <include name="check1000000ResultsSpeed"/>
+        </methods>
+      </class> <!-- com.sorenson.test.DrawingTest -->
+    </classes>
+  </test> <!-- White Elephant Drawing Tests(failed) -->
+</suite> <!-- Failed suite [Suite] -->
